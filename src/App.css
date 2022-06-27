@@ -1,38 +1,127 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+.outer {
+  position: relative;
+  top: 3.5rem;
+}
+
+.carousel-caption {
+  top: 45%;
+  text-align: left;
+}
+
+.carousel_button {
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #545454);
+  background-image: -moz-linear-gradient(top, #000000, #545454);
+  background-image: -ms-linear-gradient(top, #000000, #545454);
+  background-image: -o-linear-gradient(top, #000000, #545454);
+  background-image: linear-gradient(to bottom, #000000, #545454);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 0.75rem;
+  text-decoration: none;
+  margin-right: 0.75rem;
+}
+
+.carousel_button:hover {
+  background: #000000;
+  text-decoration: none;
+}
+
+.about-features {
+  padding: 0.5rem 0rem;
   text-align: center;
+  border: 0.5px solid black;
+  background-color: #ffffff;
+  cursor: pointer;
+  color: #545454;
+  transition: all 0.2s ease-in-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about-features span {
+  color: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about-features h6 {
+  margin: 1rem 0 0 0;
+  color: #000000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about-features:hover span,
+.about-features:hover h6 {
+  background-color: #000000;
+  color: #ffffff;
+}
+.about-features:hover {
+  transform: scale(1.1);
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.numbers {
+  text-align: center;
+  border-left: 1px solid lightgrey;
+}
+
+.number {
+  padding: 0 0.5rem 0 0.5rem;
+  border-right: 1px solid lightgrey;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  padding-bottom: 30px;
+  background-clip: padding-box;
 }
 
-.App-link {
-  color: #61dafb;
+/* Style your items */
+.my-masonry-grid_column > img {
+  /* change div to reference your elements you put in <Masonry> */
+  background: grey;
+  margin-bottom: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.testimonials-swiper .swiper-pagination {
+  bottom: 0 !important;
+}
+
+.nav-pills .nav-link.active {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.nav-pills .nav-link {
+  color: #000000;
 }
