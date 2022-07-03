@@ -16,22 +16,40 @@ const Contact = () => {
       logo: <RiUserLocationFill />,
     },
     {
-      title: "Phone",
-      desc: "099307 68427",
+      title: "Phone - Tejas Ghadia",
+      desc: (
+        <a
+          style={{ color: "inherit", textDecoration: "none" }}
+          href="tel:+99307 68427"
+        >
+          099307 68427
+        </a>
+      ),
       logo: <RiPhoneFill />,
     },
-    { title: "Email", desc: "example@email.com", logo: <RiMailFill /> },
+    {
+      title: "Email",
+      desc: (
+        <a
+          href="mailto:thecharliechaplinevents@gmail.com"
+          style={{ color: "inherit", textDecoration: "none" }}
+        >
+          thecharliechaplinevents@gmail.com
+        </a>
+      ),
+      logo: <RiMailFill />,
+    },
   ];
   const variant = "dark";
   return (
     <div className="outer">
       <Hero bg={bg} title="with" tagline="Get in Touch" />
-      <Container className="mt-5 text-center">
-        <h4>
-          Contact us if you need our services. We will be happy to make your
-          events memorable!
+      <Container className="mt-5">
+        <h4 className="text-center">
+          Contact us if you need our services. We add laughter Happiness and joy
+          to your events!
         </h4>
-        <Row className="pt-5 pb-5 mt-5 mb-5">
+        <Row className="pt-5 pb-5 mt-5 mb-5 text-center ">
           {details.map((detail) => {
             return (
               <Col>

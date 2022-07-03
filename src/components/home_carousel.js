@@ -5,7 +5,7 @@ import bdayCarousel from "../images/bdayCarousel.jpg";
 import weddingCarousel from "../images/weddingCarousel.jpg";
 import coorporateEvent from "../images/coorporateEvent.jpg";
 import first from "../images/bday/img5.jpg";
-import second from "../images/wedding/img2.jpg";
+import second from "../images/dj/img2.jpg";
 import third from "../images/anchor/img2.JPG";
 
 function HomeCarousel() {

@@ -24,12 +24,12 @@ const Numbers = () => {
     {
       key: 3,
       count: 250,
-      title: "Good Comments",
+      title: "Reviews",
       icon: <BiCommentDetail color="#00000" size={80} />,
     },
     {
       key: 4,
-      count: 69,
+      count: 6,
       title: "Trophies Won",
       icon: <RiAwardFill color="#00000" size={80} />,
     },

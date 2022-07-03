@@ -1,10 +1,12 @@
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
-import { RiInstagramFill, RiMailFill, RiPhoneFill } from "react-icons/ri";
 import {
-  RiFacebookBoxFill,
-  RiTwitterFill,
+  RiInstagramFill,
+  RiYoutubeFill,
+  RiWhatsappFill,
+  RiMailFill,
+  RiPhoneFill,
   RiUserLocationFill,
 } from "react-icons/ri";
 import { Link } from "react-router-dom";
@@ -25,20 +27,29 @@ const Footer = () => {
         <Container>
           <Row>
             <Col>
-              <a href="" style={{ color: "inherit", textDecoration: "none" }}>
+              <a
+                href="https://www.instagram.com/charlie_chaplin_events/"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
                 <RiInstagramFill size={30} /> <br /> InstaGram
               </a>
             </Col>
             <Col>
-              <a href="" style={{ color: "inherit", textDecoration: "none" }}>
-                <RiFacebookBoxFill size={30} />
-                <br /> Facebook
+              <a
+                href="https://www.youtube.com/channel/UCyMn8SnkVrg2HrqfY35tZ7Q"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
+                <RiYoutubeFill size={30} />
+                <br /> YouTube
               </a>
             </Col>
             <Col>
-              <a href="" style={{ color: "inherit", textDecoration: "none" }}>
-                <RiTwitterFill size={30} />
-                <br /> Twitter
+              <a
+                href="https://wa.me/9930768427"
+                style={{ color: "inherit", textDecoration: "none" }}
+              >
+                <RiWhatsappFill size={30} />
+                <br /> WhatsApp
               </a>
             </Col>
           </Row>
@@ -68,7 +79,7 @@ const Footer = () => {
                 className="blockquote-footer mt-2"
                 style={{ fontSize: "20px" }}
               >
-                near mini nagar, Ambica Society,
+                Near mini nagar, Ambica Society,
                 <br /> Rawalpada, Dahisar East, Mumbai 400068
               </p>
               <h4 className="mb-2">
@@ -78,7 +89,12 @@ const Footer = () => {
                 className="blockquote-footer mt-2"
                 style={{ fontSize: "20px" }}
               >
-                099307 68427
+                <a
+                  style={{ color: "inherit", textDecoration: "none" }}
+                  href="tel:+99307 68427"
+                >
+                  099307 68427
+                </a>
               </p>
               <h4 className="mb-2">
                 <RiMailFill /> Email
@@ -87,7 +103,12 @@ const Footer = () => {
                 className="blockquote-footer mt-2"
                 style={{ fontSize: "20px" }}
               >
-                example@email.com
+                <a
+                  href="mailto:thecharliechaplinevents@gmail.com"
+                  style={{ color: "inherit", textDecoration: "none" }}
+                >
+                  thecharliechaplinevents@gmail.com
+                </a>
               </p>
             </Col>
             <Col className="text-center">

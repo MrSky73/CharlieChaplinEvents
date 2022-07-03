@@ -16,6 +16,7 @@ import img5 from "../images/sangeet-sandhya-service.jpeg";
 import img6 from "../images/coorporateservice.jpg";
 import img7 from "../images/engagement-decor/img3.jpg";
 import img8 from "../images/anchor/img5.jpg";
+import img9 from "../images/magician.png";
 
 const ServicesCarousel = () => {
   const servicesData = [
@@ -34,32 +35,38 @@ const ServicesCarousel = () => {
     {
       key: 3,
       title: "Baby Shower",
-      desc: "Make your Birthday memorable.",
+      desc: "Welcome the special one in style.",
       src: img3,
     },
     {
       key: 4,
       title: "Get Togeter",
-      desc: "Make your Birthday memorable.",
+      desc: "",
       src: img4,
     },
     {
       key: 5,
       title: "Sangeet Sandhya",
-      desc: "Make your Birthday memorable.",
+      desc: "We add music and memories to every occasion",
       src: img5,
     },
     {
       key: 6,
-      title: "Corporate Events",
-      desc: "Make your Birthday memorable.",
+      title: "Cocktail Parties",
+      desc: "We organise it in your preferred style",
       src: img6,
     },
     {
       key: 7,
       title: "Anniversary Function",
-      desc: "Make your Birthday memorable.",
+      desc: "Celebrate your special day, in a special way",
       src: img7,
+    },
+    {
+      key: 9,
+      title: "Prof Magician",
+      desc: "We add magic to your events",
+      src: img9,
     },
     {
       key: 8,
@@ -130,8 +137,8 @@ const ServicesCarousel = () => {
                     <Card.Text>{data.desc}</Card.Text>
                   </Card.Body>
                   <Card.Body>
-                    <Card.Link href="/services">
-                      <Button variant="dark">Read More</Button>
+                    <Card.Link href="/contact">
+                      <Button variant="dark">Enquire</Button>
                     </Card.Link>
                   </Card.Body>
                 </Card>

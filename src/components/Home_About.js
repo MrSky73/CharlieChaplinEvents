@@ -25,8 +25,8 @@ const HomeAbout = () => {
     {
       key: 3,
       icon: <FaGlassCheers size={100} />,
-      title: "Unique Scenarios",
-      desc: "We think out of the box",
+      title: "Quality Service",
+      desc: "Your Event is our event",
     },
     {
       key: 4,
@@ -63,14 +63,13 @@ const HomeAbout = () => {
                 Management
               </h1>
               <p>
-                Commodo eiusmod excepteur consectetur incididunt laboris
-                exercitation. Veniam incididunt ad ea laborum ex anim ad quis
-                aliqua aliquip. Ut non incididunt incididunt commodo sint non
-                cupidatat dolore enim eu. Laborum occaecat sunt nisi sunt quis
-                consequat exercitation pariatur deserunt anim Lorem adipisicing
-                ea dolor.
+                We are a Mumbai based Event Management Company. We only provide
+                quality service to our clients.From Wedding Functions to
+                Birthday Parties or Corporate Events to Baby-Showers, We offer
+                full range of Events Management Services that scale to your
+                needs & budget.
               </p>
-              <Button variant="dark" href="/services">
+              <Button variant="dark" href="/contact">
                 Hire Us!
               </Button>
             </Container>
